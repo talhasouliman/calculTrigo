@@ -1,0 +1,37 @@
+
+.etape{
+    list-style: none;
+    width:100%;
+    text-align: left;
+     margin-top:40px;
+}
+.etape li{
+     padding:10px;
+     margin-top:10px;
+}
+.etape  li div{
+    width:100%;
+    display:flex;
+    margin-top: 10px;
+    
+}
+.etape  h2{
+   color:brown; 
+    margin-left:40px;
+    
+}
+
+.etape li {
+    background-color:thistle;
+}
+
+.etape li a{
+    text-decoration: none;
+    color:green;
+    font-size: 25px;
+    margin-left:40px;
+}
+.etape li a:hover{
+    color:cornflowerblue;
+    
+}

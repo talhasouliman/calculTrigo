@@ -1,0 +1,121 @@
+
+header .logo{
+   
+    opacity: 0.8;
+    width:100%;
+}
+#imgstart1 img{
+    width:400px;
+    height:180px;
+    
+}
+#imgstart2{
+    width:150px;   
+}
+#imgstart3{
+    width:150px;
+}
+.main .content2{
+    
+    width:60%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 50px;;
+}
+.content1 div{
+    margin-top: 20px;
+    
+}
+.content1 div h1{
+    color:brown;
+    font-size:200%
+}
+.content1 div h2{
+    color:darkgreen;
+    font-size: 150%;
+}
+.content1 div h3{
+    color:royalblue;
+    font-size: 130%;
+}
+.content1 .t5{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.content1 .t6{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.content1 .t7 button{
+    width:150px;
+    height: 100px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color:green;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #faa41d;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+   box-shadow: 5px 5px 5px  #717070;
+   border:solid 1px #faa41d;
+   -webkit-animation: mymove 5s infinite linear;
+                animation: mymove 5s infinite linear;
+    cursor: pointer;
+}
+.content2 .t7 button:hover{
+    background-color:#15b9f9;
+    color:white;
+    border:solid 1px #15b9f9;
+}
+
+.content aside img {
+  -webkit-animation: rotation 1s 2 linear;
+                animation: rotation 1s 2 linear;
+}
+@keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+@keyframes mymove {
+  0%   {-webkit-transform: rotate(0deg)}
+  25%   {-webkit-transform: rotate(30deg)}
+  50%  {-webkit-transform: rotate(0deg)}
+  75%   {-webkit-transform: rotate(-30deg)}
+  100% {-webkit-transform: rotate(0deg)}
+}
+.foot{
+    text-align: center;
+    background-color: cornflowerblue;
+    color:white;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 10px;
+    padding:10px;
+}
+
+/*********************** Media Querry *******************/
+@media only screen and (max-width: 800px) {
+  
+#imgstart1 img{
+    width:300px;
+
+}
+.content1 .t6{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content1 .t5{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+}

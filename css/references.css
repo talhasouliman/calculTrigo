@@ -1,0 +1,70 @@
+
+.myVideo .myvid{
+    margin-top:60px;
+    color:#386fa4;
+    text-decoration: underline;
+}
+
+
+.myCours{
+    color:#386fa4;
+}
+.myCours h2{
+    text-align: left;
+    width:100%;
+}
+.myCours img{
+    margin:20px auto;
+    width:100%;
+    border:solid 4px green;
+}
+
+.myCours h1{
+    display:block;
+    width:100%;
+    color:#df0024;
+    margin-top:20px;
+    margin-bottom: 20px;
+    
+}
+
+
+#myBtn {
+  display: none;
+  position:fixed;
+  bottom: 40px;
+  right: 220px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #faa41d;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+ol{
+    text-align: left;
+    margin-bottom: 40px;
+}
+ol li a{
+    
+    text-decoration: none;
+    color:#386fa4;
+}
+ol li a:hover{
+    
+    text-decoration: underline;
+    color:#faa41d;
+    
+}
+
+.myaside{
+    box-shadow: 1px 1px 12px #faa41d;   
+}

@@ -1,0 +1,361 @@
+* {
+    margin : 0;
+    padding : 0;
+    /*box-sizing: border-box;*/
+}
+
+/********   body  *************/
+body{
+    background: url("../images/bg.jpg") repeat;
+    background-repeat: repeat; 
+}
+
+/*   **************  header  ****************    */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    background-color:#15b9f9;
+}
+.logo h1{
+    display:block;
+    font-size:200%;
+    color:white;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Train One', cursive;
+}
+.logo img{
+    width:100px;
+    height:100px;
+}
+header{
+    width:100%;
+}
+#myTopnav{
+    display:none;
+}
+nav{
+    background-color:#15b9f9;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width:100%;
+    padding: 10px 0;
+    margin-top: 2px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li{
+    display:inline-block;
+    margin-right: 10px;
+}
+nav a{
+    background-color: #faa41d;
+    border:solid 1px white;
+    border-radius: 10%;
+    padding:6px;
+    text-decoration: none;
+    color:white;
+    transition: all .3s ease-out;
+}
+nav a:hover{
+    background-color: white;
+    color:#faa41d;
+}
+.cerclecontainer{
+    width:30%;
+    display: flex;
+    justify-content:flex-end;
+}
+.cercle{
+    width:60%;
+    padding:4px;
+    transition: all .3s ease-out;
+}
+.cercle:hover{
+   transform:scaleX(1.1);
+}
+.cercle a{
+    background-color: #faa41d;
+    color:white;
+    
+    
+}
+.cercle a:hover{
+    color: #faa41d;
+    /*padding-left: 15px;
+    padding-right:15px;*/
+}
+nav .icon{
+    display:none;
+}
+
+/*   ******************* Main  *****************    */
+
+.main{
+    
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.main .content{
+    
+    width:60%;
+    padding:100px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-left:solid 3px #78c6f7;
+    border-right:solid 3px #78c6f7;
+    text-align: center;
+}
+.content .part{
+    width:300px;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 25px;  
+}
+.content .part .box{
+    width:120px;
+    height:120px;
+    background-color: #faa41d;
+    border:solid 1px #78c6f7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .part .boxborder{
+    border:solid 2px #15b9f9;
+    border-radius: 50%;
+    padding:5px;
+    box-shadow:2px 5px 5px #78c6f7;
+    box-shadow:-5px -5px -5px #78c6f7;
+}
+.content .part a{
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+.content .part a:hover{
+    margin-top: -15px;
+}
+.content .part .box span{
+    
+    color:white;
+}
+
+/**************   content  of ectvities ******************/
+
+.content .part1{
+    width:300px;
+    /*width:30%;*/
+    display:flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size:large;
+    text-align: center;
+    
+}
+.content .part1 .box1{
+    width:160px;
+    height:120px;
+    background-color: #faa41d;
+    border:solid 1px #78c6f7;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* padding:6px; */
+}
+.content .part1 .boxborder1{
+    border:solid 2px #15b9f9;
+    border-radius: 5%;
+    padding:5px;
+    box-shadow:2px 5px 5px #78c6f7;
+    box-shadow:-5px -5px -5px #78c6f7;
+}
+.content .part1 a{
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+.content .part1 a:hover{
+    margin-top: -15px;
+}
+.content .part1 .box1 span{
+    
+    color:white;
+    margin:2px;
+}
+
+
+/************************  Aside ***************************/
+.main aside{
+    width:10%;
+    background: linear-gradient(#ffffff, #faa41d);
+    /*box-shadow: 1px 1px 12px #faa41d;*/
+
+   
+}
+.main aside img{
+    width:100%;
+    opacity: .1;
+}
+
+
+/**************** footer *************/
+footer{
+    width:100%;
+   padding:20px 0;
+    background-color:#386fa4;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    font-family: 'Exo 2', sans-serif;
+     font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+}
+footer p{
+    margin-left: 20px;
+}
+footer span{
+    margin-right: 20px;
+}
+
+
+/********** IDs **********/
+
+
+#ggbApplet{
+    margin-top:20px;
+    border:solid 4px #386fa4;
+    border-radius: 5px;
+   
+}
+#full{
+    font-size:small;
+    width:100%;
+    text-align: end;
+    
+}
+#full p{
+    width:78%;
+    margin:0 auto;
+    color:red;
+}
+
+#fullsc{
+    font-size:xx-large;
+}
+
+#loading {
+        width:100px;
+        height: 100px;
+        display: block;
+		-webkit-animation: rotation 3s 2 linear;
+                animation: rotation 3s 2 linear;
+}
+#loading1 {
+        
+		-webkit-animation: rotation 1s 2 linear;
+                animation: rotation 1s 2 linear;
+}
+@keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+/********** relations entre les rapports  *****************/
+
+/********** menu **********/
+.menu{
+    width:100%;
+    /*height:60px;*/
+    display: flex;
+    
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: solid 2px #15b9f9;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.menu ul li{
+    background-color:#faa41d ;
+   border:solid 1px white;
+   border-top-right-radius: 50%;
+   border-top-left-radius: 50%;
+   width:140px;
+   height:35fpx;
+   text-align: center;
+   padding: 20px 0px 10px 0;
+   
+}
+.menu ul li:hover{
+    background-color: #78c6f7;
+}
+#menuactif{
+    background-color: #15b9f9;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+/***   content of relation ****/
+
+.content p{
+    width: 100%;
+}
+
+/*********************** Media Querry *******************/
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+  
+  .logo img{
+    display: none;
+  }
+  .main aside{
+   display: none;
+  }
+  
+  nav{
+      display:none;
+  }
+  #myTopnav{
+    display:flex;
+}
+  .main .content{
+    width:100%;
+    border:none;
+}
+.content .part{
+    width:150px;
+     
+}
+  
+  
+}
