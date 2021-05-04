@@ -5,7 +5,7 @@ header .logo{
     width:100%;
 }
 #imgstart1 img{
-    width:400px;
+    width:500px;
     height:180px;
     
 }
@@ -105,7 +105,8 @@ header .logo{
 @media only screen and (max-width: 800px) {
   
 #imgstart1 img{
-    width:300px;
+  width:300px;
+  height:130px;
 
 }
 .content1 .t6{
@@ -117,5 +118,12 @@ header .logo{
    display: flex;
    flex-wrap: wrap;
 }
+.content1 .t7 button{
+    width:100px;
+    height: 60px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    
 
+}
 }

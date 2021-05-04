@@ -15,9 +15,14 @@
     margin-top: 10px;
     
 }
+.etape  h1{
+   font-size:1.5em;
+  
+}
 .etape  h2{
    color:brown; 
-    margin-left:40px;
+    margin-left:5%;
+    font-size:1.1em;
     
 }
 
@@ -28,7 +33,7 @@
 .etape li a{
     text-decoration: none;
     color:green;
-    font-size: 25px;
+    
     margin-left:40px;
 }
 .etape li a:hover{
