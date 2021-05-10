@@ -60,7 +60,8 @@ header .logo{
     background-color: #faa41d;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-   box-shadow: 5px 5px 5px  #717070;
+   /*box-shadow: 5px 5px 5px  #717070;*/
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
    border:solid 1px #faa41d;
    -webkit-animation: mymove 5s infinite linear;
                 animation: mymove 5s infinite linear;
@@ -99,6 +100,32 @@ header .logo{
     font-family: 'Exo 2', sans-serif;
     margin-top: 10px;
     padding:10px;
+}
+
+/*************  A props  ***********/
+.propos{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    background-image:linear-gradient(to right,#ffb347,#ffcc33);
+    border:solid 1px #ffb347;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:5px;
+}
+.propos a{
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin-left: 5px;
+    color:dodgerblue;
+}
+.propos a:hover{
+    text-decoration: underline;
+}
+.propos img{
+    width:40px;
 }
 
 /*********************** Media Querry *******************/
