@@ -46,6 +46,7 @@ header .logo{
    flex-wrap: wrap;
 }
 .content1 .t6{
+    width: 100%;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
@@ -128,6 +129,24 @@ header .logo{
     width:40px;
 }
 
+ul{
+    width: 100%;
+}
+ul li{
+    width: 100%;
+    margin-top: 10px;
+    letter-spacing:0.8px;
+    line-height:35px;
+    
+}
+ul li span{
+    border:solid 2px #15b9f9;
+    border-radius:10px;
+    padding:5px 10px;
+    background-color: #faa41d;
+
+}
+
 /*********************** Media Querry *******************/
 @media only screen and (max-width: 800px) {
   
@@ -141,7 +160,14 @@ header .logo{
     display: flex;
     flex-wrap: wrap;
 }
+#imgstart2{
+    width:110px;   
+}
+#imgstart3{
+    width:110px;
+}
 .content1 .t5{
+    width: 100%;
    display: flex;
    flex-wrap: wrap;
 }
@@ -151,6 +177,19 @@ header .logo{
     padding-bottom: 10px;
     font-size: 18px;
     
-
 }
+.content1 div h1{
+    color:brown;
+    font-size:150%
+}
+.content1 div h2{
+    color:darkgreen;
+    font-size: 100%;
+}
+.content1 div h3{
+    color:royalblue;
+    font-size: 80%;
+}
+
+
 }
